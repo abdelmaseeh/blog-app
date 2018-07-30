@@ -18,8 +18,8 @@ RSpec.feature "Ceating article" do
     visit "/"
     click_link "New Article"
 
-    fill_in "Title", with: "Creating a blog"
-    fill_in "Body", with: "This is a body"
+    fill_in "Title", with: ""
+    fill_in "Body", with: ""
 
     click_button "Create Article"
 
